@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
     private SeekBar seekBarBrightness;
     private SeekBar seekBarSensitivity;
 
+    private Communication communication;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
         seekBarBrightness=findViewById(R.id.seekbar_brightness);
         seekBarSensitivity=findViewById(R.id.seekbar_photoresistor);
+
+        communication=new Communication(this);
 
         manualButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -158,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
 
     void sendCommand()
     {
-
+        communication.sendCommand(mode,redValue,greenValue,blueValue,brightnessValue, sensitivityValue);
     }
 
 
