@@ -123,7 +123,7 @@ public class Communication {
             counter[0]++;
 
             try {
-                sleep(500);
+                sleep(50);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

@@ -125,7 +125,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:gravity="center_horizontal"
-            android:text="1. Normal - lights are shining in chosen color and brightness. "
+            android:text="1. Normal - lights are shining in the chosen color and brightness. "
             android:layout_weight="1"
             >
         </TextView>
@@ -171,6 +171,37 @@
             android:textSize="15sp"
             android:gravity="center_horizontal"
             android:text="4. TV - lights are blinking to simulate the TV in a room. "
+            android:layout_weight="1"
+            >
+        </TextView>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:text="Before the first use you should pair your phone with the device choosing the LIGHTS device in bluetooth settings in your phone. "
+            android:layout_weight="1"
+            >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:text="Make sure you gave the app all necessary permissions. If you want to switch the mode, make sure that bluetooth is turned on in your phone. "
             android:layout_weight="1"
             >
         </TextView>
