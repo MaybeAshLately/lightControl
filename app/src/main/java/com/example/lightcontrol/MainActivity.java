@@ -80,11 +80,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 getInfo();
                 sendCommand();
-                System.out.println(mode.toString());
-                System.out.println("red: "+redValue+"green: "+greenValue+"blue: "+blueValue);
-                System.out.println(brightnessValue);
-                System.out.println(sensitivityValue);
-
             }
         });
 

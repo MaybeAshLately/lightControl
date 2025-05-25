@@ -59,7 +59,7 @@ public class BluetoothConnection {
                 String deviceName = device.getName();
                 String deviceHardwareAddress = device.getAddress();
 
-                if (deviceName.equals("RF_SCANNER_SERVER  ")) {
+                if (deviceName.equals("LIGHTS")) {
                     deviceAddress[deviceCounter] = deviceHardwareAddress;
                     deviceCounter++;
                 }

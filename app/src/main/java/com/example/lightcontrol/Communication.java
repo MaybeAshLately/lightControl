@@ -73,7 +73,7 @@ public class Communication {
         String resultInfo;
         if(ackCame)
         {
-            resultInfo="Command send.";
+            resultInfo="Command sent.";
         }
         else
         {
